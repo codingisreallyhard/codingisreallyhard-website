@@ -12,7 +12,7 @@ function Portofolio() {
         </div>
         <div className="portfolio-content container">
           <div className="proj-1">
-            <img src={eshop} />
+            <img src={eshop} alt="React Eshop project" />
             <div className="proj1-details">
               <i className="fab fa-html5"></i>
               <i className="fab fa-css3-alt"></i>
@@ -31,7 +31,7 @@ function Portofolio() {
           </div>
 
           <div className="proj-2">
-            <img src={authapp} />
+            <img src={authapp} alt="React Auth" />
             <div className="proj2-details">
               <i className="fab fa-html5"></i>
               <i className="fab fa-css3-alt"></i>
@@ -48,7 +48,7 @@ function Portofolio() {
             </div>
           </div>
           <div className="proj-2">
-            <img src={guess} />
+            <img src={guess} alt="Guess game" />
             <div className="proj2-details">
               <i className="fab fa-html5"></i>
               <i className="fab fa-css3-alt"></i>

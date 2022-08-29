@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import { AiOutlineArrowDown } from "react-icons/ai";
+
 function Home() {
   return (
     <section className="home-content" id="home-page">

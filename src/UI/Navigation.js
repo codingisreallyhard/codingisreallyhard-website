@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navigation.css";
 import Home from "../Layout/Home";
-import { Link } from "react-scroll";
+
 function Navigation() {
   return (
     <header>
