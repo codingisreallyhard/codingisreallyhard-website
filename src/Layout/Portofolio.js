@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Portofolio.css";
 import authapp from "../Assets/authapp.png";
 import guess from "../Assets/guessgame.png";
 import eshop from "../Assets/reacteshop.png";
+import { render } from "@testing-library/react";
+
 function Portofolio() {
+  const [hover, onHover] = useState(eshop);
+
   return (
     <section id="my-works">
       <div className="portfolio">
@@ -12,7 +16,19 @@ function Portofolio() {
         </div>
         <div className="portfolio-content container">
           <div className="proj-1">
-            <img src={eshop} alt="React Eshop project" />
+            <div className="pdiv">
+              <img
+                src={hover}
+                onMouseEnter={() => {
+                  onHover(guess);
+                }}
+                onMouseOut={() => {
+                  onHover(eshop);
+                }}
+                alt="React Eshop project"
+                className="p1"
+              />
+            </div>
             <div className="proj1-details">
               <i className="fab fa-html5"></i>
               <i className="fab fa-css3-alt"></i>
