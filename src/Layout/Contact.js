@@ -11,12 +11,12 @@ function Contact() {
             f.g.constantin999@gmail.com
           </p>
           <p className="links">Or find me on:</p>
-          <a
+          {/* <a
             href="https://www.linkedin.com/in/sanket-bodake-995b5b205/"
             target="blank"
           >
             <i className="fab fa-linkedin">Linkedin</i>
-          </a>
+          </a> */}
 
           <a href="https://github.com/codingisreallyhard" target="blank">
             <i className="fab fa-github"></i> GitHub
