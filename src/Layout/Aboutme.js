@@ -59,7 +59,7 @@ function Aboutme() {
                         </div>
                         <div className="bar">
                           <div className="info">
-                            <span>Next.js</span>
+                            <span>Bootstrap5</span>
                           </div>
                           <div className="progress-line">
                             <span className="node"></span>
